@@ -3,6 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #2C2B3D;
     color: #FFFFFF;
+  
 }
 
 
@@ -30,7 +31,7 @@ section p {
     font-family: 'Open Sans', sans-serif;
     color: #C2C2C2;
     
-    align-items: center;
+    text-align: center;
     margin-top: 59px;
     font-size: 16px;
     line-height: 28px;
@@ -42,14 +43,6 @@ p span {
     font-weight: bold;
 }
 
-
-
-ul footer{
-    font-family: 'JetBrains Mono', monospace;
-    
-
-}
-
 ul {
     display: flex;
     list-style: none;
@@ -57,7 +50,7 @@ ul {
     padding: 0;
     gap: 64px;
     align-items: center;
-    
+    font-family: 'JetBrains Mono', monospace;
     
 }
 
@@ -98,23 +91,18 @@ h1 span{
 footer{
     text-align: center;
     justify-content:space-between;
-    margin-top: 642px;
-    margin-bottom: 23px;
-
-
+    margin: 642px auto 23px;
+    border-top: 1px solid #00BFA6;
+    width: 568px;
+    padding-top: 27px;
+    font-family: 'JetBrains Mono', monospace;
+        
 }
 
 #locke{
     position: fixed;
     bottom: 20px;
     left: 20px;
-}
-
-#note {
     
-    margin-top: 101px;
-    margin-bottom: 235px;
-    margin-left: 99px;
-    margin-right: 82px;
 }
 
